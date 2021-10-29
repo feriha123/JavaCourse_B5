@@ -17,7 +17,7 @@ public class Task_2_SumNumbersFromUser {
 
         int sum = 0;
 
-        for (int i = 0; i <= limit; i++) {
+        for (int i = 1; i <= limit; i++) {
             sum += i;
         }
 
