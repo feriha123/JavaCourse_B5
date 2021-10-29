@@ -10,9 +10,9 @@ public class _03_WhileLoopUseCase {
         // unless user types "quit", if user types quit then quit loop
 
         Scanner scanner = new Scanner(System.in);
-        String userInput;
+        String userInput = "";
 
-        while (true) {
+        while (!userInput.equals("quit")) {
             System.out.print("Please enter input: ");
             userInput = scanner.nextLine().toLowerCase();
 
