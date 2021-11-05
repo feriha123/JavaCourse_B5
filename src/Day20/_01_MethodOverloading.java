@@ -4,7 +4,7 @@ public class _01_MethodOverloading {
 
     /*
         Method Overloading: Method overloading is a concept in Java which we can
-        create multiple methods with SAME NAME in the SAME CLASS,
+        create multiple methods with SAME NAME(but different parameters) in the SAME CLASS,
         and all methods work in different ways!!
      */
 
