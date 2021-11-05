@@ -28,10 +28,9 @@ public class Task_VoidMethods_Homework {
 
         printArrayInTheSameLine(numbers);
         sumOfArray(numbers);
+        maxElementOfAnArray(numbers);
 
     }
-
-
 
     public static void printArrayInTheSameLine(int[] array) {
         for (int i = 0; i < array.length; i++)
@@ -45,4 +44,14 @@ public class Task_VoidMethods_Homework {
             sum += array[i];
         System.out.println("sum: " + sum);
     }
+
+
+    public static void maxElementOfAnArray(int[] array) {
+        int maxValue = array[0];
+        for (int i = 1; i < array.length; i++)
+            maxValue = Math.max(array[i], maxValue);
+        System.out.println(maxValue);
+    }
+
+
 }
