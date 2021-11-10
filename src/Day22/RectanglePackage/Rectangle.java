@@ -1,4 +1,4 @@
-package Day22;
+package Day22.RectanglePackage;
 
 public class Rectangle {
 
