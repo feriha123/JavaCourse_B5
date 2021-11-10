@@ -2,7 +2,7 @@ package Day22.PetManagementSystem;
 
 import java.util.Arrays;
 
-public class Bird {
+public class Fish {
 
     String color;
     int age;
@@ -10,7 +10,6 @@ public class Bird {
     String[] listOfNeeds;
 
     Owner ownerInfo;
-
 
     public void printProperties() {
         System.out.println("Color: " + color + "\nAge: " + age
