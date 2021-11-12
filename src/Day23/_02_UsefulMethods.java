@@ -1,6 +1,6 @@
 package Day23;
 
-public class UsefulMethods {
+public class _02_UsefulMethods {
 
     public static void printArray(int[] array) {
         for (int number : array) {
@@ -14,6 +14,7 @@ public class UsefulMethods {
         for (int number : numbers) {
             sum += number;
         }
+        System.out.println(sum);
     }
 
 }
