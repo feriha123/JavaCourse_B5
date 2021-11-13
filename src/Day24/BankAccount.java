@@ -27,11 +27,18 @@ public class BankAccount {
     static double totalBalance = 0;
 
 
+    public BankAccount(String customerName, int customerSSN) {
+        this.customerName = customerName;
+        this.customerSSN = customerSSN;
+    }
+
+    // Constructor Overloading
     public BankAccount(String customerName, int customerSSN, String city) {
         this.customerName = customerName;
         this.customerSSN = customerSSN;
         this.city = city;
     }
+
 
 
     public void deposit(double moneyToDeposit) {

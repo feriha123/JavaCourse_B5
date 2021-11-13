@@ -16,7 +16,7 @@ public class Main {
         System.out.println(bankAccount1.city);
 
 
-        BankAccount bankAccount2 = new BankAccount("James", 4382942, "Miami");
+        BankAccount bankAccount2 = new BankAccount("James", 4382942);
 
 
 
